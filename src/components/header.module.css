@@ -1,0 +1,44 @@
+
+.body_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.header_body{
+    width: 1500px;
+    display: flex;
+    padding: 20px 0 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.project_title{
+    font-size: 30px;
+    font-family: "DM Sans:Medium", sans-serif;
+    font-weight: 500;
+}
+ul, li {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+ul {
+    padding: 20px 40px;
+}
+.project_btn{
+    padding: 14px 22px;
+    border-radius: 30px;
+    background-color: pink;
+    color: white;
+    width: 126px;
+    border: none;
+}
+/* .hamburger_img{
+    all: unset;
+    cursor: pointer;
+    display: none;
+} */

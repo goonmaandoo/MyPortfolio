@@ -1,0 +1,41 @@
+
+.main_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.main_body{
+    width: 1500px;
+}
+.main_gap{
+    display: flex;
+    gap: 140px;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_first{
+    justify-content: center;
+    display: flex;
+}
+.main_title{
+    font-size: 160px;
+    line-height: 136px;
+}
+.main_box{
+    width: 100%;
+    background-color: pink;
+    border-radius: 50px;
+    height: 362px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main_display{
+    position: absolute;
+    background-color: black;
+    height: 423px;
+    width: 900px;
+    overflow: clip;
+    border-radius: 16px;
+}
