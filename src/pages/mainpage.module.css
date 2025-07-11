@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .main_container{
     display: flex;
@@ -8,6 +7,7 @@
 }
 .main_body{
     width: 1500px;
+    padding: 0 20px;
 }
 .main_gap{
     display: flex;
@@ -55,11 +55,30 @@
 .main_ABILITIES{
     padding: 50px 0;
     font-family: "DM Sans:Medium", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.main_ABILITIES h2{
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+}
+.main_key{
+    font-family: "Chiron Sung HK", serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+.main_sub{
+    font-size: 20px;
 }
 
 .main_tool{
     padding: 30px 0;
-    font-family: "DM Sans:Medium", sans-serif;
+    /* font-family: "DM Sans:Medium", sans-serif; */
     display: flex;
     justify-content: flex-start;
     gap: 20px;
@@ -115,4 +134,59 @@
 .main_tool_subtitle_detail{
     font-family: "DM Sans:Medium", sans-serif;
     color: #6F6F6F;
+}
+.main_profile{
+    display: flex;
+    gap:20px;
+    padding-bottom: 60px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.main_profile_text{
+    flex: 1 1 0;
+    min-width: 600px;
+}
+.main_profile_title{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main_profile_text > hr{
+    margin-bottom: 60px;
+}
+.main_profile_text h2{
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+}
+.abil{
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+}
+.main_profile_img{
+    flex: 1 1 0;
+    min-width: 600px;
+    height: 711px;
+    border-radius: 30px;
+    background-color: white;
+    object-fit: cover;
+}
+.main_profile_detail{
+    display: flex;
+}
+.main_profile_content{
+    font-family: "DM Sans:Medium", sans-serif;
+    margin-bottom: 20px;
+}
+.main_profile_detail_bo{
+    margin-bottom: 80px;
+}
+.main_profile_detail_bo hr{
+    margin: 20px 0;
+}
+.table_title{
+    font-weight: 600;
 }
