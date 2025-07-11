@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .main_container{
     display: flex;
@@ -9,7 +11,7 @@
 }
 .main_gap{
     display: flex;
-    gap: 140px;
+    gap: 240px;
     flex-direction: column;
     justify-content: center;
 }
@@ -18,15 +20,15 @@
     display: flex;
 }
 .main_title{
-    font-size: 160px;
+    font-size: 10rem;
     line-height: 136px;
+    font-family: "Crimson Text", serif;
 }
 .main_box{
     width: 100%;
     background-color: pink;
     border-radius: 50px;
-    height: 362px;
-
+    height: 363px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -34,8 +36,83 @@
 .main_display{
     position: absolute;
     background-color: black;
-    height: 423px;
-    width: 900px;
-    overflow: clip;
-    border-radius: 16px;
+    height: 503px;
+    min-width: 70%;
+    border-radius: 16px 16px 0 0;
+    top: -140px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.main_img{
+    position: absolute;
+    background-color: white;
+    width:calc(100% - 30px);
+    height:calc(100% - 15px);
+    border-radius: 16px 16px 0 0;
+}
+.main_ABILITIES{
+    padding: 50px 0;
+    font-family: "DM Sans:Medium", sans-serif;
+}
+
+.main_tool{
+    padding: 30px 0;
+    font-family: "DM Sans:Medium", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    box-sizing: border-box;
+    font-family: "Crimson Text", serif;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main_tools_content{
+    min-height: 560px;
+}
+.main_tools{
+    flex: 1 1 460px;
+}
+.main_tools hr{
+    margin: 20px 0;
+}
+.main_tools h2{
+    margin-bottom: 30px;
+    padding: 0px 10px;
+}
+.main_tools div{
+    padding: 0px 10px;
+}
+.main_tool_img{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    gap:40px
+}
+.main_tool_img img{
+    width: 80px;
+    height: auto;
+}
+.main_tool_img_{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    gap:40px
+}
+.main_tool_img_ img{
+    width: auto;
+    height: 80px;
+}
+.main_tool_subtitle{
+    font-family: "DM Sans:Medium", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #6F6F6F;
+}
+.main_tool_subtitle_detail{
+    font-family: "DM Sans:Medium", sans-serif;
+    color: #6F6F6F;
 }

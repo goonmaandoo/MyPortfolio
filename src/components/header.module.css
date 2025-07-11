@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .body_container{
     display: flex;
@@ -12,7 +13,7 @@
     align-items: center;
 }
 .project_title{
-    font-size: 30px;
+    font-size: 24px;
     font-family: "DM Sans:Medium", sans-serif;
     font-weight: 500;
 }
@@ -21,10 +22,11 @@ ul, li {
     list-style: none;
     display: flex;
     gap: 15px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 50px;
     background-color: antiquewhite;
+    font-family: "DM Sans", sans-serif;
 }
 ul {
     padding: 20px 40px;
@@ -36,6 +38,7 @@ ul {
     color: white;
     width: 126px;
     border: none;
+    font-family: "DM Sans", sans-serif;
 }
 /* .hamburger_img{
     all: unset;
