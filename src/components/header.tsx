@@ -1,11 +1,16 @@
 import styles from './header.module.css';
-import { useState } from 'react';
+import { useCallback, useState, useRef } from 'react';
 
 export default function header() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState<Boolean>(false);
+    const menuRef = useRef<HTMLElement | null>(null);
+    const btnRef = useRef<HTMLButtonElement | null>(null);
 
-    const toggleMenu = () => {
+    const toggleMenu = useCallback(() => {
         setMenuOpen(prev => !prev);
+    }, []);
+    const clickHambuger = (e) => {
+        toggleMenu(e);
     }
 
     return (
@@ -18,11 +23,20 @@ export default function header() {
                     <li>How-to</li>
                     <li>Contact Me</li>
                 </ul>
-                <button className={styles["project_btn"]}>더보기</button>
+                <div className={styles["header_left"]}>
+                    <button ref={btnRef} className={styles["hamburger_btn"]} onClick={clickHambuger}>
+                        <img src="/Vector.png" className={styles["hamburger_img"]}/>
+                    </button>
+                </div>
 
-                {/* <button className={styles["hamburger_btn"]}>
-                    <img src="/Vector.png" className={styles["hamburger_img"]}/>
-                </button> */}
+                {menuOpen && (
+                    <nav ref={menuRef} className={styles["small_menu"]}>
+                        <li>Benefits</li>
+                    <li>Specifications</li>
+                    <li>How-to</li>
+                    <li>Contact Me</li>
+                    </nav>
+                )}
             </div>
         </div>
     );

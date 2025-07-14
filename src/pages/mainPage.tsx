@@ -9,7 +9,7 @@ export default function MainPage() {
                 <div className={styles["main_body"]}>
                     <div className={styles["main_gap"]}>
                         <div className={styles["main_first"]}>
-                            <div className={styles["main_title"]}>One's Portfolio.</div>
+                            <h1 className={styles["main_title"]}>One's Portfolio.</h1>
                         </div>
                         <div className={styles["main_box"]}>
                             <div className={styles["main_display"]}>
@@ -19,8 +19,8 @@ export default function MainPage() {
                     </div>
                     <div className={styles["main_ABILITIES"]}>
                         <h2>Intro</h2>
-                        <div className={styles["main_key"]}>"데이터와 사용자를 모두 이해하여 <br></br>문제를 해결하는 풀스택 개발자입니다."</div>
-                        <div className={styles["main_sub"]}>사용자의 니즈를 깊이 파악하고, 기술로 실질적인 가치를 만듭니다. <br/>프론트엔드부터 백엔드까지 전체 과정을 아우르며 완성도 높은 서비스를 구현합니다.</div>
+                        <div className={styles["main_key"]}>"데이터와 사용자를 모두 이해하여 <span className={styles["line_break"]} />문제를 해결하는 풀스택 개발자입니다."</div>
+                        <div className={styles["main_sub"]}>사용자의 니즈를 깊이 파악하고, 기술로 실질적인 가치를 만듭니다. <br />프론트엔드부터 백엔드까지 전체 과정을 아우르며 완성도 높은 서비스를 구현합니다.</div>
                     </div>
                     <div className={styles["main_profile"]}>
                         <div className={styles["main_profile_text"]}>
@@ -31,40 +31,40 @@ export default function MainPage() {
                                     <div className={styles["main_profile_content"]}>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</div>
                                 </div>
                                 <div className={styles["main_profile_detail_bo"]}>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ width : "100px" }}>생년월일</div>
+                                        <div className={styles["table_title"]} style={{ width: "100px" }}>생년월일</div>
                                         <div>2000.05.25</div>
                                     </div>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width : "100px" }}>연락처</div>
+                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>연락처</div>
                                         <div>010-2260-4021</div>
                                     </div>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width : "100px" }}>이메일</div>
+                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>이메일</div>
                                         <div>won020738@naver.com</div>
                                     </div>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ letterSpacing: "1.9rem", width : "100px"}}>학력</div>
+                                        <div className={styles["table_title"]} style={{ letterSpacing: "1.9rem", width: "100px" }}>학력</div>
                                         <div>2025.02 통계학과 졸업</div>
                                     </div>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width : "100px" }}>자격증</div>
+                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>자격증</div>
                                         <div>SQL개발자(SQLD) / SQL전문가(SQLP) / 정보처리기사 / ADSP</div>
                                     </div>
-                                    <hr/>
+                                    <hr />
                                     <div className={styles["main_profile_detail"]}>
-                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width : "100px" }}>자격증</div>
+                                        <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>자격증</div>
                                         <div>SQL개발자(SQLD) / SQL전문가(SQLP) / 정보처리기사 / ADSP</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <img className={styles["main_profile_img"]} src="/KakaoTalk_20250711_173649900.jpg"/>
+                        <img className={styles["main_profile_img"]} src="/KakaoTalk_20250711_173649900.jpg" />
                     </div>
                     {/* <hr style={{ marginBottom: "20px"}}/> */}
                     <h2 className={styles["abil"]}>Abilities</h2>
@@ -160,9 +160,22 @@ export default function MainPage() {
                             <div className={styles["main_tool_subtitle_detail"]}>Python 기반의 데이터 분석 및 시각화 환경</div>
                         </div>
                     </div>
-                    <hr style={{ margin: "40px 0px"}}/>
+                    <hr style={{ margin: "40px 0px" }} />
                     <div className={styles["abil"]}>My Project</div>
-                    <div></div>
+                    <div className={styles["myProject_list"]}>
+                        <video
+                            className={styles.videoPlayer}
+                            preload="metadata"
+                            poster="/2023contest-01.png"
+                            autoPlay
+                            muted
+                            loop 
+                            playsInline
+                        >
+                            <source src="/videos/2023contest2.mp4" type="video/mp4" />
+                        </video>
+                        <div className={styles.videoPlayer}></div>
+                    </div>
                 </div>
             </main>
 

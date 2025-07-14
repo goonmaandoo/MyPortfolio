@@ -4,6 +4,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    position: relative;
 }
 .header_body{
     width: 1500px;
@@ -40,8 +41,31 @@ ul {
     border: none;
     font-family: "DM Sans", sans-serif;
 }
-/* .hamburger_img{
-    all: unset;
+.hamburger_img{
+    outline: none;
     cursor: pointer;
+}
+.hamburger_btn{
+    border: none;
     display: none;
-} */
+    margin-top: 5px;
+}
+.header_left{
+    min-width: 108px;
+    display: flex;
+    justify-content: flex-end;
+}
+.small_menu{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+
+}
+@media (max-width:900px) {
+    .project_menu{
+        display: none;
+    }
+    .hamburger_btn{
+        display: inline;
+    }
+}
