@@ -56,10 +56,10 @@
 
 .main_img {
     position: absolute;
-    background-color: white;
     width: calc(100% - 30px);
     height: calc(100% - 15px);
     border-radius: 16px 16px 0 0;
+    background-color: white;
 }
 
 .main_ABILITIES {
@@ -78,87 +78,6 @@
     margin: 0;
 }
 
-.main_key {
-    font-family: "Chiron Sung HK", serif;
-    font-size: 54px;
-    font-weight: 600;
-    flex-wrap: wrap;
-}
-
-.main_sub {
-    font-size: 20px;
-}
-
-.main_tool {
-    padding: 30px 0;
-    /* font-family: "DM Sans:Medium", sans-serif; */
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    box-sizing: border-box;
-    font-family: "Crimson Text", serif;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.main_tools_content {
-    min-height: 560px;
-}
-
-.main_tools {
-    flex: 1 1 460px;
-}
-
-.main_tools hr {
-    margin: 20px 0;
-}
-
-.main_tools h2 {
-    margin-bottom: 30px;
-    padding: 0px 10px;
-}
-
-.main_tools div {
-    padding: 0px 10px;
-}
-
-.main_tool_img {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    gap: 40px
-}
-
-.main_tool_img img {
-    width: 80px;
-    height: auto;
-}
-
-.main_tool_img_ {
-    display: flex;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    gap: 40px
-}
-
-.main_tool_img_ img {
-    width: auto;
-    height: 80px;
-}
-
-.main_tool_subtitle {
-    font-family: "DM Sans:Medium", sans-serif;
-    font-weight: 600;
-    margin-top: 15px;
-    color: #6F6F6F;
-}
-
-.main_tool_subtitle_detail {
-    font-family: "DM Sans:Medium", sans-serif;
-    color: #6F6F6F;
-}
 
 .main_profile {
     display: flex;
@@ -168,68 +87,12 @@
     flex-wrap: wrap;
 }
 
-.main_profile_text {
-    flex: 1 1 0;
-    min-width: 600px;
-}
-
-.main_profile_title {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.main_profile_text>hr {
-    margin-bottom: 60px;
-}
-
-.main_profile_text h2 {
-    font-family: "Crimson Text", serif;
-    font-size: 60px;
-    font-weight: 500;
-    margin: 0;
-}
-
 .abil {
     font-family: "Crimson Text", serif;
     font-size: 60px;
     font-weight: 500;
     margin: 0;
 }
-
-.main_profile_img {
-    flex: 1 1 0;
-    min-width: 600px;
-    height: 711px;
-    border-radius: 30px;
-    background-color: white;
-    object-fit: cover;
-}
-
-.main_profile_detail {
-    display: flex;
-}
-
-.main_profile_content {
-    font-family: "DM Sans:Medium", sans-serif;
-    margin-bottom: 20px;
-}
-
-.main_profile_detail_bo {
-    margin-bottom: 80px;
-}
-
-.main_profile_detail_bo hr {
-    margin: 20px 0;
-}
-
-.table_title {
-    font-weight: 600;
-}
-.line_break{
-    display: block;
-}
-
 @media (max-width: 1024px) {
     .main_profile {
         flex-direction: column;
@@ -254,21 +117,4 @@
     .line_break{
         display: inline;
     }
-
-}
-
-.myProject_list{
-    width: 100%;
-    height: auto;
-    padding: 40px;
-    background-color: white;
-    margin: 40px 0;
-    border-radius: 16px;
-    box-sizing: border-box;
-}
-.videoPlayer{
-    width:100%;
-    height: auto;
-    margin: 40px 0;
-    box-sizing: border-box;
 }

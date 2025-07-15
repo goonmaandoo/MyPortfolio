@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.myProject_container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    
+}
+
+.myProject_list{
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    aspect-ratio: 16 / 9; 
+    transition: all 0.3s ease;
+}
+.myProject_list:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+.videoPlayer{
+    width:100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+.project_img{
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    aspect-ratio: 16 / 9; 
+    object-fit: cover;
+    object-position: center 0%;
+}
+.main_skill{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    color: #424242;
+}
+.main_skill_title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main_skill_img_box{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.main_skill_img{
+    width: 30px;
+    height: 30px;
+}
+.main_skill_name{
+    font-weight: 600;
+    font-size: 24px;
+    flex-wrap: nowrap;
+    width: 100px;
+}
+.main_skill_explain{
+    flex-wrap: wrap;
+    font-size: 20px;
+    flex: 1
+}
+.main_skill_explain ul, .main_skill_explain li {
+        margin: 0;
+        list-style: none;
+        border-radius: 50px;
+        font-family: "DM Sans", sans-serif;
+        padding: 0;
+}
+.main_skill2{
+    margin: 20px 0;
+    color: #424242;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+.main_skill_text{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.project_img:hover{
+    z-index: 1000;
+    background-color: black;
+}

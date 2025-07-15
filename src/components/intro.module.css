@@ -1,0 +1,13 @@
+.main_key {
+    font-size: 54px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.main_sub {
+    font-size: 20px;
+}
+
+.line_break{
+    display: block;
+}
