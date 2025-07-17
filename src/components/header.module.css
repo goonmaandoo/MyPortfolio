@@ -7,30 +7,49 @@
     position: relative;
 }
 .header_body{
-    width: 1500px;
+    width: 100%;
+    height: 50px;
     display: flex;
-    padding: 20px 0 80px;
+    padding:20px 20px 0 20px;
     justify-content: space-between;
     align-items: center;
+}
+.header_body2{
+    padding:20px 20px 0 20px;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 16px 16px;
 }
 .project_title{
     font-size: 24px;
     font-family: "DM Sans:Medium", sans-serif;
     font-weight: 500;
 }
-.header_body ul, .header_body li {
+.project_title2{
+    font-size: 24px;
+    font-family: "DM Sans:Medium", sans-serif;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.project_menu{
     margin: 0;
     list-style: none;
-    display: flex;
     gap: 15px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 50px;
-    background-color: antiquewhite;
     font-family: "DM Sans", sans-serif;
-}
-.header_body ul {
     padding: 20px 40px;
+    background-color: rgba(250, 235, 215, 0.6);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1000;
 }
 .project_btn{
     padding: 14px 22px;
@@ -48,24 +67,60 @@
 .hamburger_btn{
     border: none;
     display: none;
-    margin-top: 5px;
+    all: unset;    
+    background-color: none;
+    cursor: pointer;
+    margin-top: 0;
+    margin-top: -15px;
 }
 .header_left{
-    min-width: 108px;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 .small_menu{
+    overflow: hidden;   
     position: absolute;
     background-color: white;
     width: 100%;
-
+    top: 70px;
+    padding: none;
+    box-sizing: border-box;
+    display: none;
+    border-radius: 0 0 16px 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.small_menu ul{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+.small_menu ul li{
+    margin: 20px;
+}
+
+
+.project_menu{
+        display: flex;
+    }
 @media (max-width:900px) {
     .project_menu{
         display: none;
     }
     .hamburger_btn{
+        display: inline-block;
+    }
+    .small_menu{
         display: inline;
+    }
+    .header_body{
+        display: none;
+    }
+    .header_body2{
+        display: flex;
     }
 }

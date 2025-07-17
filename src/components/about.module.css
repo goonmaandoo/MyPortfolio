@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 .main_profile_text {
     flex: 1 1 0;
     min-width: 600px;
@@ -35,6 +37,12 @@
 .main_profile_content {
     font-family: "DM Sans:Medium", sans-serif;
     margin-bottom: 20px;
+    display: flex;
+    gap:15px;
+}
+.main_profile_content div{
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .main_profile_detail_bo {
@@ -47,6 +55,26 @@
 
 .table_title {
     font-weight: 600;
+}
+.main_skill_img {
+    width: 23px;
+    height: 23px;
+}
+.main_skill_img1 {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+.main_about_a{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 209, 217);
+    box-sizing: border-box;
+    padding: 14px 22px;
+    border-radius: 30px;
+}
+.main_about_a:hover{
+    background-color: pink;
 }
 @media (max-width: 1024px) {
     .main_profile_text,

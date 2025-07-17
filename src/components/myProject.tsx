@@ -5,49 +5,20 @@ export default function MyProject() {
     return (
         <div className={styles["myProject_container"]}>
             <div className={styles["myProject_list"]}>
-                <img src="/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
-                <div className={styles["main_skill_text"]}>
-                    <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
-                    <hr />
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>기술스택</div>
-                        <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/black/raphael_js.png' />
-                            <img className={styles["main_skill_img"]} src='/black/html.png' />
-                            <img className={styles["main_skill_img"]} src='/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/black/devicon-plain_eclipse.png' />
-                            <img className={styles["main_skill_img"]} src='/black/sqldeveloper.png' />
-                            <img className={styles["main_skill_img"]} src='/black/la_java.png' />
-                            <img className={styles["main_skill_img"]} src='/black/apachetomcat.png' />
-                            <img className={styles["main_skill_img"]} src='/black/fontisto_oracle.png' />
-                            <img className={styles["main_skill_img"]} src='/black/figma-linear.png' />
-                        </div>
-                    </div>
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>주요 기능</div>
-                        <div className={styles["main_skill_explain"]}>
-                            <ul>
-                                <li>고객이 주문한 도서를 배송원이 직접 1:1로 신속하게 배송</li>
-                                <li>카테고리 및 키워드 기반 도서 검색</li>
-                                <li>관리자 페이지 : 주문/배송 상태 관리, 도서 등록 및 재고 관리</li>
-                                <li>로그인/회원가입/마이페이지/장바구니/주문내역 등 기본 이커머스 기능</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>참여 시기</div>
-                        <div className={styles["main_skill_explain"]}>2025.02</div>
-                    </div>
-                    <div className={styles["main_skill2"]}>
-                        <div className={styles["main_skill_name"]}>설명</div>
-                        <div className={styles["main_skill_explain"]}>사용자가 주문한 도서를 쿠방이나 배달 앱처럼 배송원이 직접 1:1로 빠르게 전달하는 배송 시스템을 구현했습니다.
-                            JSP와 Java Servlet 기반으로 백엔드를 구성했으며, 주문 처리와 배송 상태 관리를 효율적으로 처리하도록 설계했습니다.
-                            관리자 페이지에서는 실시간으로 주문 내역을 확인하고, 배송 진행 상황을 업데이트할 수 있습니다.
-                        </div>
+                <div className={styles["main_skill_link"]}>
+                    <div className={styles["main_skill_number"]}>01</div>
+                    <div className={styles["main_about_a_list"]}>
+                        <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/black/line-md_link.png' /><div>사이트</div>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div className={styles["myProject_list"]}>
                 <img src="/videos/image.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
@@ -90,6 +61,63 @@ export default function MyProject() {
                             Supabase를 활용해 실시간 데이터베이스, 인증, 공구방 참여 내역 등을 효율적으로 관리하고,
                             React 기반으로 사용자가 공구방을 쉽게 개설하고 참여할 수 있도록 직관적인 UI를 구현했습니다.
                             카카오 주소 API를 연동하여 위치 기반 필터링과 지도 시각화 기능을 제공했습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles["myProject_list"]}>
+                <div className={styles["main_skill_link"]}>
+                    <div className={styles["main_skill_number"]}>02</div>
+                    <div className={styles["main_about_a_list"]}>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/black/line-md_link.png' /><div>사이트</div>
+                        </a>
+                    </div>
+                </div>
+                <img src="/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
+                <div className={styles["main_skill_text"]}>
+                    <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
+                    <hr />
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>기술스택</div>
+                        <div className={styles["main_skill_img_box"]}>
+                            <img className={styles["main_skill_img"]} src='/black/raphael_js.png' />
+                            <img className={styles["main_skill_img"]} src='/black/html.png' />
+                            <img className={styles["main_skill_img"]} src='/black/css-solid.png' />
+                            <img className={styles["main_skill_img"]} src='/black/devicon-plain_eclipse.png' />
+                            <img className={styles["main_skill_img"]} src='/black/sqldeveloper.png' />
+                            <img className={styles["main_skill_img"]} src='/black/la_java.png' />
+                            <img className={styles["main_skill_img"]} src='/black/apachetomcat.png' />
+                            <img className={styles["main_skill_img"]} src='/black/fontisto_oracle.png' />
+                            <img className={styles["main_skill_img"]} src='/black/figma-linear.png' />
+                        </div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>주요 기능</div>
+                        <div className={styles["main_skill_explain"]}>
+                            <ul>
+                                <li>고객이 주문한 도서를 배송원이 직접 1:1로 신속하게 배송</li>
+                                <li>카테고리 및 키워드 기반 도서 검색</li>
+                                <li>관리자 페이지 : 주문/배송 상태 관리, 도서 등록 및 재고 관리</li>
+                                <li>로그인/회원가입/마이페이지/장바구니/주문내역 등 기본 이커머스 기능</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>참여 시기</div>
+                        <div className={styles["main_skill_explain"]}>2025.02</div>
+                    </div>
+                    <div className={styles["main_skill2"]}>
+                        <div className={styles["main_skill_name"]}>설명</div>
+                        <div className={styles["main_skill_explain"]}>사용자가 주문한 도서를 쿠방이나 배달 앱처럼 배송원이 직접 1:1로 빠르게 전달하는 배송 시스템을 구현했습니다.
+                            JSP와 Java Servlet 기반으로 백엔드를 구성했으며, 주문 처리와 배송 상태 관리를 효율적으로 처리하도록 설계했습니다.
+                            관리자 페이지에서는 실시간으로 주문 내역을 확인하고, 배송 진행 상황을 업데이트할 수 있습니다.
                         </div>
                     </div>
                 </div>

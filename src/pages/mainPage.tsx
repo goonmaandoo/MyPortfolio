@@ -21,16 +21,17 @@ export default function MainPage() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles["main_ABILITIES"]}>
+                    <div id="Intro" className={styles["main_ABILITIES"]}>
                         <Intro/>
                     </div>
-                    <div className={styles["main_profile"]}>
+                    
+                    <div id="About" className={styles["main_profile"]}>
                         <About/>
                     </div>
-                    <h2 className={styles["abil"]}>Abilities</h2>
+                    <h2 id="Abilities" className={styles["abil"]}>Abilities</h2>
                     <Abilities/>
                     <hr style={{ margin: "40px 0px" }} />
-                    <div className={styles["abil"]}>My Project</div>
+                    <div id="MyProject" className={styles["abil"]}>My Project</div>
                         <MyProject/>
                 </div>
             </main>
