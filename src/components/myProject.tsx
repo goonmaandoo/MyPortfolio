@@ -1,6 +1,9 @@
 import styles from './myProject.module.css'
+import { useState } from 'react';
+import ReadmeModal from './readememodal';
 
 export default function MyProject() {
+    const [modalOpen, setModalOpen] = useState(false);
 
     return (
         <div className={styles["myProject_container"]}>
@@ -11,10 +14,10 @@ export default function MyProject() {
                         <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
                         </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://www.figma.com/deck/ubGucjKKdp6SW8nUKuf5D6/Delivery-moA?t=SjyZBHwkrOI1eFqt-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
                         </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://delivery-moa.github.io/delivery-moa/' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
@@ -72,7 +75,7 @@ export default function MyProject() {
                         <a href='/' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
                         </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
                         </a>
                         <a href='/' target="_blank" className={styles["main_about_a"]}>
