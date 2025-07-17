@@ -1,9 +1,6 @@
 import styles from './myProject.module.css'
-import { useState } from 'react';
-import ReadmeModal from './readememodal';
 
 export default function MyProject() {
-    const [modalOpen, setModalOpen] = useState(false);
 
     return (
         <div className={styles["myProject_container"]}>
