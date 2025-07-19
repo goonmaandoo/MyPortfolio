@@ -19,7 +19,7 @@ export default function MyProject() {
                         </a>
                     </div>
                 </div>
-                <img src="/videos/image.png" className={styles["project_img"]} />
+                <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
                     <hr />
@@ -80,7 +80,7 @@ export default function MyProject() {
                         </a>
                     </div>
                 </div>
-                <img src="/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
+                <img src="/MyPortfoli/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
                     <hr />
@@ -126,13 +126,13 @@ export default function MyProject() {
                 <video
                     className={styles["videoPlayer"]}
                     preload="metadata"
-                    poster="/2023contest-01.png"
+                    poster="/MyPortfolio/2023contest-01.png"
                     autoPlay
                     muted
                     loop
                     playsInline
                 >
-                    <source src="/videos/2023contest2.mp4" type="video/mp4" />
+                    <source src="/MyPortfolio/videos/2023contest2.mp4" type="video/mp4" />
                 </video>
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>감지센서블럭을 활용한 불법주청차 단속 효율화</div>
