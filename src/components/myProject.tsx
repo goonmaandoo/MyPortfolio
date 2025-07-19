@@ -80,7 +80,7 @@ export default function MyProject() {
                         </a>
                     </div>
                 </div>
-                <img src="/MyPortfoli/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
+                <img src="/MyPortfolio/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
                     <hr />
