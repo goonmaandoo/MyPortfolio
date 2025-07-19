@@ -11,10 +11,10 @@ export default function About() {
                         <h2>About</h2>
                         <div className={styles["main_profile_content"]}>
                             <a href='/' target="_blank" className={styles["main_about_a"]}>
-                                <img className={styles["main_skill_img"]} src='/black/mdi_github.png' /><div>Github</div>
+                                <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                             </a>
                             <a href='/' target="_blank" className={styles["main_about_a"]}>
-                                <img className={styles["main_skill_img1"]} src='/black/naver_blog.png' /><div>blog</div>
+                                <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/naver_blog.png' /><div>blog</div>
                             </a>
                         </div>
                         {/* <div className={styles["main_profile_content"]}>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</div> */}
