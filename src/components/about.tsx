@@ -53,7 +53,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <img className={styles["main_profile_img"]} src="/KakaoTalk_20250711_173649900.jpg" />
+            <img className={styles["main_profile_img"]} src="/MyPortfolio/KakaoTalk_20250711_173649900.jpg" />
         </>
     )
 
