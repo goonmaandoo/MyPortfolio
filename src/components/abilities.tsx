@@ -80,7 +80,7 @@ export default function Abilities() {
             <div className={styles["main_tools"]}>
                 <hr />
                 <h2>Data & Analytics Tools</h2>
-                <div className={styles["main_tool_img_"]}>
+                <div className={styles["main_tool_img"]}>
                     <img src="/MyPortfolio/black/file-icons_sas.png" />
                     <img src="/MyPortfolio/black/devicon-plain_spss.png" />
                     <img src="/MyPortfolio/black/file-icons_rstudio.png" />

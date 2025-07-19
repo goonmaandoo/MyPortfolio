@@ -2,67 +2,71 @@
 
 .main_profile_text {
     flex: 1 1 0;
-    min-width: 600px;
+    min-width: 31.25rem;
 }
 
 .main_profile_title {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .main_profile_text>hr {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .main_profile_text h2 {
     font-family: "Crimson Text", serif;
-    font-size: 60px;
+    font-size: 2.5rem;
     font-weight: 500;
     margin: 0;
 }
 
 .main_profile_img {
     flex: 1 1 0;
-    min-width: 600px;
-    height: 711px;
-    border-radius: 30px;
+    min-width: 31.25rem;
+    height: 44.5rem;
+    border-radius: 1.875rem;
     object-fit: cover;
 }
 
 .main_profile_detail {
     display: flex;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 .main_profile_content {
-    font-family: "DM Sans:Medium", sans-serif;
-    margin-bottom: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-bottom: 1.25rem;
     display: flex;
-    gap:15px;
+    gap: 1rem;
 }
 .main_profile_content div{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .main_profile_detail_bo {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .main_profile_detail_bo hr {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .table_title {
     font-weight: 600;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    font-family: "Noto Sans KR", sans-serif;
 }
 .main_skill_img {
-    width: 23px;
-    height: 23px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .main_skill_img1 {
-    width: 23px;
-    height: 23px;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: 5px;
 }
 .main_about_a{
@@ -70,8 +74,9 @@
     align-items: center;
     background-color: rgb(255, 209, 217);
     box-sizing: border-box;
-    padding: 14px 22px;
-    border-radius: 30px;
+    padding: 0.8rem 1.3rem;
+    border-radius: 1.875rem;
+    font-family: "Noto Sans KR", sans-serif;
 }
 .main_about_a:hover{
     background-color: pink;
@@ -80,7 +85,7 @@
     .main_profile_text,
     .main_profile_img {
         width: 100%;
-        min-width: 300px;
+        min-width: 18.75rem;
     }
 
     .main_profile_img {

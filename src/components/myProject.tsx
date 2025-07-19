@@ -123,6 +123,20 @@ export default function MyProject() {
                 </div>
             </div>
             <div className={styles["myProject_list"]}>
+            <div className={styles["main_skill_link"]}>
+                    <div className={styles["main_skill_number"]}>03</div>
+                    <div className={styles["main_about_a_list"]}>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
+                        </a>
+                        <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
+                        </a>
+                    </div>
+                </div>
                 <video
                     className={styles["videoPlayer"]}
                     preload="metadata"

@@ -27,28 +27,28 @@ export default function About() {
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
-                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>연락처</div>
+                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5rem", width: "6.25rem" }}>연락처</div>
                             <div>010-2260-4021</div>
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
-                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>이메일</div>
+                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5rem", width: "6.25rem" }}>이메일</div>
                             <div>won020738@naver.com</div>
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
-                            <div className={styles["table_title"]} style={{ letterSpacing: "1.9rem", width: "100px" }}>학력</div>
+                            <div className={styles["table_title"]} style={{ letterSpacing: "1.9rem", width: "6.25rem" }}>학력</div>
                             <div>2025.02 통계학과 졸업</div>
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
-                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>자격증</div>
-                            <div>SQL개발자(SQLD) / SQL전문가(SQLP) / 정보처리기사 / ADSP</div>
+                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5rem", width: "6.25rem" }}>자격증</div>
+                            <div>SQL개발자(SQLD) / 정보처리기사 / ADSP</div>
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
-                            <div className={styles["table_title"]} style={{ letterSpacing: "0.5em", width: "100px" }}>자격증</div>
-                            <div>SQL개발자(SQLD) / SQL전문가(SQLP) / 정보처리기사 / ADSP</div>
+                            <div className={styles["table_title"]} style={{ letterSpacing: "1.9rem", width: "6.25rem" }}>경력</div>
+                            <div></div>
                         </div>
                     </div>
                 </div>
