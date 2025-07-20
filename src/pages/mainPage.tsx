@@ -27,8 +27,10 @@ export default function MainPage() {
                     <div id="About" className={styles["main_profile"]}>
                         <About/>
                     </div>
+                    
                     <h2 id="Abilities" className={styles["abil"]}>Abilities</h2>
                     <Abilities/>
+                    
                     <hr style={{ margin: "2.5rem 0" }} />
                     <div id="MyProject" className={styles["abil"]}>My Project</div>
                         <MyProject/>

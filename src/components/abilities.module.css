@@ -54,8 +54,9 @@
     color: #6F6F6F;
 }
 @media (max-width: 768px) {
-    .myProject_container{
+    .main_tool{
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        padding: 0 1rem;
         gap: 0;
     }
 }

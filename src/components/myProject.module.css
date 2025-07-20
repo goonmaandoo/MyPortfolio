@@ -143,7 +143,7 @@
 
 @media (max-width: 768px) {
     .myProject_container{
-        grid-template-columns: repeat(auto-fit, minmax(28.3rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     }
     .main_about_a{
         padding: 0.7rem 0.8rem;
