@@ -17,7 +17,7 @@ export default function MainPage() {
                         </div>
                         <div className={styles["main_box"]}>
                             <div className={styles["main_display"]}>
-                                <div className={styles["main_img"]} />
+                                <img className={styles["main_img"]} src="portfolio_mainImg.png"/>
                             </div>
                         </div>
                     </div>

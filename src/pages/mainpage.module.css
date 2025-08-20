@@ -34,7 +34,7 @@
 
 .main_box {
     width: 100%;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.781);
     border-radius: 50px;
     height: 363px;
     position: relative;
@@ -61,6 +61,8 @@
     height: calc(100% - 15px);
     border-radius: 16px 16px 0 0;
     background-color: white;
+    object-fit: cover;
+    object-position: center 0%;
 }
 
 .main_ABILITIES {
