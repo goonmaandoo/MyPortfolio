@@ -3,8 +3,31 @@ import Intro from '../components/intro';
 import About from '../components/about';
 import Abilities from '../components/abilities';
 import MyProject from '../components/myProject';
+import { useState, useEffect } from 'react';
 
 export default function MainPage() {
+    const [imgUrl, setImgUrl] = useState<string>("1280mainpage.jpeg");
+
+    useEffect(() => {
+        const handleResize = () => {
+            const width = window.innerWidth; 
+            
+            if (width <= 660) {
+                setImgUrl("660mainpage.jpeg");
+            } else if (width<=960) {
+                setImgUrl("960mainpage.jpeg");
+            } else {
+                setImgUrl("1280mainpage.jpeg");
+            }
+        };
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    },[]);
 
     return (
         <>
@@ -17,7 +40,7 @@ export default function MainPage() {
                         </div>
                         <div className={styles["main_box"]}>
                             <div className={styles["main_display"]}>
-                                <img className={styles["main_img"]} src="portfolio_mainImg.png"/>
+                                <img className={styles["main_img"]} src={imgUrl}/>
                             </div>
                         </div>
                     </div>
@@ -28,7 +51,7 @@ export default function MainPage() {
                         <About/>
                     </div>
                     
-                    <h2 id="Abilities" className={styles["abil"]}>Abilities</h2>
+                    <div id="Abilities" className={styles["abil"]}>Abilities</div>
                     <Abilities/>
                     
                     <hr style={{ margin: "2.5rem 0" }} />

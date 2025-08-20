@@ -45,10 +45,10 @@
 .main_display {
     position: absolute;
     background-color: black;
-    height: 31.5rem;
+    height: 35rem;
     min-width: 70%;
     border-radius: 1rem 1rem 0 0;
-    top: -9rem;
+    top: -12.5rem;
     display: flex;
     justify-content: center;
     padding-top: 1rem;
@@ -114,6 +114,9 @@
     .main_title{
         font-size: clamp(6rem, 6vw + 1rem, 9rem);
     }
+    .abil{
+        font-size: clamp(2rem, 6vw + 0.25rem, 3.75rem);
+    }
     .main_body{
         margin-top: 8.75rem;
     }
@@ -129,10 +132,24 @@ html {
         padding: 0 0.75rem;
     }
     .main_box {
-        height: 20.5rem;
+        height: 19rem;
     }
     
     .main_display {
-        height: 29.5rem;
+        height: 28rem;
+        top: -9rem;
+    }
+}
+@media (max-width: 490px){
+    .main_box {
+        height: 17rem;
+    }
+    
+    .main_display {
+        height: 26rem;
+        top: -9rem;
+    }
+    .main_title {
+        margin: 20px 0;
     }
 }

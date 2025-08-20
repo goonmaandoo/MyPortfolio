@@ -23,7 +23,7 @@ export default function About() {
                         <hr />
                         <div className={styles["main_profile_detail"]}>
                             <div className={styles["table_title"]} style={{ width: "100px" }}>생년월일</div>
-                            <div>2000.05.25</div>
+                            <div>2000.05.24</div>
                         </div>
                         <hr />
                         <div className={styles["main_profile_detail"]}>
