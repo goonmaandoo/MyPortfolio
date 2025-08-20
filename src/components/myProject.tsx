@@ -9,33 +9,33 @@ export default function MyProject() {
                     <div className={styles["main_skill_number"]}>01</div>
                     <div className={styles["main_about_a_list"]}>
                         <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
                         <a href='https://www.figma.com/deck/ubGucjKKdp6SW8nUKuf5D6/Delivery-moA?t=SjyZBHwkrOI1eFqt-1' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
+                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
                         </a>
                         <a href='https://delivery-moa.github.io/delivery-moa/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/black/line-md_link.png' /><div>사이트</div>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
                 </div>
-                <img src="/videos/image.png" className={styles["project_img"]} />
+                <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
                     <hr />
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>기술스택</div>
                         <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/black/raphael_js.png' />
-                            <img className={styles["main_skill_img"]} src='/black/html.png' />
-                            <img className={styles["main_skill_img"]} src='/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/black/supabase.png' />
-                            <img className={styles["main_skill_img"]} src='/black/mdi_github.png' />
-                            <img className={styles["main_skill_img"]} src='/black/simple-icons_vite.png' />
-                            <img className={styles["main_skill_img"]} src='/black/cib_visual-studio-code.png' />
-                            <img className={styles["main_skill_img"]} src='/black/react-outline.png' />
-                            <img className={styles["main_skill_img"]} src='/black/postgresql.png' />
-                            <img className={styles["main_skill_img"]} src='/black/figma-linear.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/supabase.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/cib_visual-studio-code.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/react-outline.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/postgresql.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
                         </div>
                     </div>
                     <div className={styles["main_skill"]}>
@@ -70,32 +70,32 @@ export default function MyProject() {
                     <div className={styles["main_skill_number"]}>02</div>
                     <div className={styles["main_about_a_list"]}>
                         <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/black/mdi_github.png' /><div>Github</div>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
                         <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img2"]} src='/color/logos_figma.png' /><div>PPT</div>
+                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
                         </a>
                         <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/black/line-md_link.png' /><div>사이트</div>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
                 </div>
-                <img src="/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
+                <img src="/MyPortfolio/videos/Rocket-Bookstore.gif" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
                     <hr />
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>기술스택</div>
                         <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/black/raphael_js.png' />
-                            <img className={styles["main_skill_img"]} src='/black/html.png' />
-                            <img className={styles["main_skill_img"]} src='/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/black/devicon-plain_eclipse.png' />
-                            <img className={styles["main_skill_img"]} src='/black/sqldeveloper.png' />
-                            <img className={styles["main_skill_img"]} src='/black/la_java.png' />
-                            <img className={styles["main_skill_img"]} src='/black/apachetomcat.png' />
-                            <img className={styles["main_skill_img"]} src='/black/fontisto_oracle.png' />
-                            <img className={styles["main_skill_img"]} src='/black/figma-linear.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/devicon-plain_eclipse.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/sqldeveloper.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/la_java.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/apachetomcat.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/fontisto_oracle.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
                         </div>
                     </div>
                     <div className={styles["main_skill"]}>
@@ -123,16 +123,30 @@ export default function MyProject() {
                 </div>
             </div>
             <div className={styles["myProject_list"]}>
+            <div className={styles["main_skill_link"]}>
+                    <div className={styles["main_skill_number"]}>03</div>
+                    <div className={styles["main_about_a_list"]}>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
+                        </a>
+                        <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
+                        </a>
+                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
+                        </a>
+                    </div>
+                </div>
                 <video
                     className={styles["videoPlayer"]}
                     preload="metadata"
-                    poster="/2023contest-01.png"
+                    poster="/MyPortfolio/2023contest-01.png"
                     autoPlay
                     muted
                     loop
                     playsInline
                 >
-                    <source src="/videos/2023contest2.mp4" type="video/mp4" />
+                    <source src="/MyPortfolio/videos/2023contest2.mp4" type="video/mp4" />
                 </video>
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>감지센서블럭을 활용한 불법주청차 단속 효율화</div>
@@ -140,7 +154,7 @@ export default function MyProject() {
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>기술스택</div>
                         <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/black/file-icons_rstudio.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/file-icons_rstudio.png' />
                         </div>
                     </div>
                     <div className={styles["main_skill"]}>

@@ -23,14 +23,15 @@ export default function MainPage() {
                     </div>
                     <div id="Intro" className={styles["main_ABILITIES"]}>
                         <Intro/>
-                    </div>
-                    
+                    </div> 
                     <div id="About" className={styles["main_profile"]}>
                         <About/>
                     </div>
+                    
                     <h2 id="Abilities" className={styles["abil"]}>Abilities</h2>
                     <Abilities/>
-                    <hr style={{ margin: "40px 0px" }} />
+                    
+                    <hr style={{ margin: "2.5rem 0" }} />
                     <div id="MyProject" className={styles["abil"]}>My Project</div>
                         <MyProject/>
                 </div>

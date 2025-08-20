@@ -1,16 +1,16 @@
 import './App.css'
-import { BrowserRouter, Routes } from "react-router-dom";
+import { HashRouter, Routes } from "react-router-dom";
 import MainPage from './pages/mainPage';
 import Header from './components/header';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <MainPage />
       <Routes>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

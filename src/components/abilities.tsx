@@ -8,10 +8,10 @@ export default function Abilities() {
                 <hr />
                 <h2>IDE & Dev Tools</h2>
                 <div className={styles["main_tool_img"]}>
-                    <img src="/black/sqldeveloper.png" />
-                    <img src="/black/devicon-plain_eclipse.png" />
-                    <img src="/black/cib_visual-studio-code.png" />
-                    <img src="/black/mdi_github.png" />
+                    <img src="/MyPortfolio/black/sqldeveloper.png" />
+                    <img src="/MyPortfolio/black/devicon-plain_eclipse.png" />
+                    <img src="/MyPortfolio/black/cib_visual-studio-code.png" />
+                    <img src="/MyPortfolio/black/mdi_github.png" />
                 </div>
                 <div className={styles["main_tool_img"]}>
                 </div>
@@ -27,10 +27,10 @@ export default function Abilities() {
                 <hr />
                 <h2>Backend & Infra</h2>
                 <div className={styles["main_tool_img"]}>
-                    <img src="/black/simple-icons_spring.png" />
-                    <img src="/black/apachetomcat.png" />
-                    <img src="/black/supabase.png" />
-                    <img src="/black/lineicons_aws.png" />
+                    <img src="/MyPortfolio/black/simple-icons_spring.png" />
+                    <img src="/MyPortfolio/black/apachetomcat.png" />
+                    <img src="/MyPortfolio/black/supabase.png" />
+                    <img src="/MyPortfolio/black/lineicons_aws.png" />
                 </div>
                 <div className={styles["main_tool_subtitle"]}>Spring Boot / Spring Legacy</div>
                 <div className={styles["main_tool_subtitle_detail"]}>Java 기반 웹 애플리케이션 프레임워크</div>
@@ -46,9 +46,9 @@ export default function Abilities() {
                 <hr />
                 <h2>Frontend Tools</h2>
                 <div className={styles["main_tool_img"]}>
-                    <img src="/black/react-outline.png" />
-                    <img src="/black/simple-icons_vite.png" />
-                    <img src="/black/figma-linear.png" />
+                    <img src="/MyPortfolio/black/react-outline.png" />
+                    <img src="/MyPortfolio/black/simple-icons_vite.png" />
+                    <img src="/MyPortfolio/black/figma-linear.png" />
                 </div>
 
                 <div className={styles["main_tool_subtitle"]}>React / Vite</div>
@@ -60,13 +60,13 @@ export default function Abilities() {
                 <hr />
                 <h2>Languages</h2>
                 <div className={styles["main_tool_img"]}>
-                    <img src="/black/html.png" />
-                    <img src="/black/css-solid.png" />
-                    <img src="/black/raphael_js.png" />
-                    <img src="/black/la_java.png" />
-                    <img src="/black/mysql.png" />
-                    <img src="/black/fontisto_oracle.png" />
-                    <img src="/black/python.png" />
+                    <img src="/MyPortfolio/black/html.png" />
+                    <img src="/MyPortfolio/black/css-solid.png" />
+                    <img src="/MyPortfolio/black/raphael_js.png" />
+                    <img src="/MyPortfolio/black/la_java.png" />
+                    <img src="/MyPortfolio/black/mysql.png" />
+                    <img src="/MyPortfolio/black/fontisto_oracle.png" />
+                    <img src="/MyPortfolio/black/python.png" />
                 </div>
                 <div className={styles["main_tool_subtitle"]}>HTML / CSS / JavaScript</div>
                 <div className={styles["main_tool_subtitle_detail"]}>웹 페이지 구조, 스타일링 및 사용자 인터페이스 구현</div>
@@ -80,12 +80,12 @@ export default function Abilities() {
             <div className={styles["main_tools"]}>
                 <hr />
                 <h2>Data & Analytics Tools</h2>
-                <div className={styles["main_tool_img_"]}>
-                    <img src="/black/file-icons_sas.png" />
-                    <img src="/black/devicon-plain_spss.png" />
-                    <img src="/black/file-icons_rstudio.png" />
-                    <img src="/black/simple-icons_anaconda.png" />
-                    <img src="/black/devicon-plain_jupyter-wordmark.png" />
+                <div className={styles["main_tool_img"]}>
+                    <img src="/MyPortfolio/black/file-icons_sas.png" />
+                    <img src="/MyPortfolio/black/devicon-plain_spss.png" />
+                    <img src="/MyPortfolio/black/file-icons_rstudio.png" />
+                    <img src="/MyPortfolio/black/simple-icons_anaconda.png" />
+                    <img src="/MyPortfolio/black/devicon-plain_jupyter-wordmark.png" />
                 </div>
                 <div className={styles["main_tool_subtitle"]}>SAS / SPSS / R</div>
                 <div className={styles["main_tool_subtitle_detail"]}>통계 분석 및 데이터 전처리 경험 기반 툴</div>

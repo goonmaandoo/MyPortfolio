@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .main_tool {
-    padding: 30px 0;
-    /* font-family: "DM Sans:Medium", sans-serif; */
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
+    padding: 1.875rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.25rem;
     box-sizing: border-box;
     font-family: "Crimson Text", serif;
     flex-wrap: wrap;
@@ -13,60 +12,51 @@
 }
 
 .main_tools_content {
-    min-height: 560px;
-}
-
-.main_tools {
-    flex: 1 1 460px;
+    min-height: 31.25rem;
 }
 
 .main_tools hr {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .main_tools h2 {
-    margin-bottom: 30px;
-    padding: 0px 10px;
+    margin-bottom: 1.75rem;
+    padding: 0px 0.625rem;
 }
 
 .main_tools div {
-    padding: 0px 10px;
+    padding: 0px 0.625rem;
 }
 
 .main_tool_img {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    gap: 40px
+    margin-bottom: 0.2rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .main_tool_img img {
-    width: 80px;
-    height: auto;
-}
-
-.main_tool_img_ {
-    display: flex;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    gap: 40px
-}
-
-.main_tool_img_ img {
     width: auto;
-    height: 80px;
+    height: 5rem;
 }
 
 .main_tool_subtitle {
-    font-family: "DM Sans:Medium", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 1rem;
     color: #6F6F6F;
 }
 
 .main_tool_subtitle_detail {
-    font-family: "DM Sans:Medium", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     color: #6F6F6F;
+}
+@media (max-width: 768px) {
+    .main_tool{
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        padding: 0 1rem;
+        gap: 0;
+    }
 }

@@ -26,7 +26,7 @@ export default function Header() {
                     <div className={styles["project_title2"]}>ChaeONE</div>
                     <div className={styles["header_left"]}>
                         <button ref={btnRef} className={styles["hamburger_btn"]} onClick={toggleMenu}>
-                            <img src="/black/Vector.png" className={styles["hamburger_img"]} />
+                            <img src="/MyPortfolio/black/Vector.png" className={styles["hamburger_img"]} />
                         </button>
                     </div>
 

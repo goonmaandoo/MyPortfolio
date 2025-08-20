@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .main_container {
     display: flex;
@@ -8,13 +8,13 @@
 
 .main_body {
     width: 1500px;
-    padding: 0 20px;
-    margin-top: 80px;
+    padding: 0 1.25rem;
+    margin-top: 5rem;
 }
 
 .main_gap {
     display: flex;
-    gap: 240px;
+    gap: 15rem;
     flex-direction: column;
     justify-content: center;
 }
@@ -26,17 +26,17 @@
 
 .main_title {
     font-size: 9rem;
-    line-height: 136px;
     font-family: "Crimson Text", serif;
     text-align: center;
     font-weight: 600;
+    line-height: 1;
 }
 
 .main_box {
     width: 100%;
-    background-color: rgba(255, 192, 203, 0.781);
-    border-radius: 50px;
-    height: 363px;
+    background-color: pink;
+    border-radius:3.125rem;
+    height: 22.5rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -45,38 +45,38 @@
 .main_display {
     position: absolute;
     background-color: black;
-    height: 503px;
+    height: 31.5rem;
     min-width: 70%;
-    border-radius: 16px 16px 0 0;
-    top: -140px;
+    border-radius: 1rem 1rem 0 0;
+    top: -9rem;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 1rem;
     box-sizing: border-box;
 }
 
 .main_img {
     position: absolute;
-    width: calc(100% - 30px);
-    height: calc(100% - 15px);
-    border-radius: 16px 16px 0 0;
+    width: calc(100% - 1.9rem);
+    height: calc(100% - 0.95rem);
+    border-radius: 1rem 1rem 0 0;
     background-color: white;
     object-fit: cover;
     object-position: center 0%;
 }
 
 .main_ABILITIES {
-    padding: 50px 0;
+    padding: 3.125rem 0;
     font-family: "DM Sans:Medium", sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 
 }
 
 .main_ABILITIES h2 {
     font-family: "Crimson Text", serif;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 500;
     margin: 0;
 }
@@ -84,19 +84,19 @@
 
 .main_profile {
     display: flex;
-    gap: 20px;
-    padding-bottom: 60px;
+    gap: 1.25rem;
+    padding-bottom: 3.75rem;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .abil {
     font-family: "Crimson Text", serif;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 500;
     margin: 0;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     .main_profile {
         flex-direction: column;
         align-items: center;
@@ -115,7 +115,7 @@
         font-size: clamp(6rem, 6vw + 1rem, 9rem);
     }
     .main_body{
-        margin-top: 140px;
+        margin-top: 8.75rem;
     }
 }
 html {
@@ -123,6 +123,16 @@ html {
 }
 @media (max-width: 660px){
     .main_title{
-        font-size: clamp(5rem, 6vw + 1rem, 6rem);
+        font-size: clamp(4rem, 6vw + 1rem, 6rem);
+    }
+    .main_body {
+        padding: 0 0.75rem;
+    }
+    .main_box {
+        height: 20.5rem;
+    }
+    
+    .main_display {
+        height: 29.5rem;
     }
 }
