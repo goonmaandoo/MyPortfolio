@@ -29,12 +29,18 @@ export default function MyProject() {
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/supabase.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/la_java.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/fontisto_oracle.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/sqldeveloper.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mysql.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/lineicons_aws.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
+
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_spring.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/cib_visual-studio-code.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/react-outline.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/postgresql.png' />
+                            
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
                         </div>
                     </div>
