@@ -11,7 +11,7 @@ export default function MyProject() {
                         <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
-                        <a href='https://www.figma.com/deck/ubGucjKKdp6SW8nUKuf5D6/Delivery-moA?t=SjyZBHwkrOI1eFqt-1' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://www.figma.com/deck/V09ILMAQtjde4BJue4d4IW/%EB%B0%B0%EB%8B%AC%EB%AA%A8%EC%95%84-%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C-%EC%B5%9C%EC%A2%85%EB%B3%B8?node-id=1-447&t=fLzGQTJAIZmtZIBD-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
                         </a>
                         <a href='https://delivery-moa.github.io/delivery-moa/' target="_blank" className={styles["main_about_a"]}>
@@ -21,7 +21,7 @@ export default function MyProject() {
                 </div>
                 <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
-                    <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
+                    <div className={styles["main_skill_title"]}>배달모아(리뉴얼)</div>
                     <hr />
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>기술스택</div>
@@ -52,68 +52,7 @@ export default function MyProject() {
                     </div>
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>참여 시기</div>
-                        <div className={styles["main_skill_explain"]}>2025.05</div>
-                    </div>
-                    <div className={styles["main_skill2"]}>
-                        <div className={styles["main_skill_name"]}>설명</div>
-                        <div className={styles["main_skill_explain"]}>
-                            배달비 부담과 최소 주문 금액 문제를 해결하기 위해, 인근 사용자들과 배달 음식을 공동 주문할 수 있는 플랫폼을 개발했습니다.
-                            Supabase를 활용해 실시간 데이터베이스, 인증, 공구방 참여 내역 등을 효율적으로 관리하고,
-                            React 기반으로 사용자가 공구방을 쉽게 개설하고 참여할 수 있도록 직관적인 UI를 구현했습니다.
-                            카카오 주소 API를 연동하여 위치 기반 필터링과 지도 시각화 기능을 제공했습니다.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className={styles["myProject_list"]}>
-                <div className={styles["main_skill_link"]}>
-                    <div className={styles["main_skill_number"]}>01</div>
-                    <div className={styles["main_about_a_list"]}>
-                        <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
-                        </a>
-                        <a href='https://www.figma.com/deck/ubGucjKKdp6SW8nUKuf5D6/Delivery-moA?t=SjyZBHwkrOI1eFqt-1' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
-                        </a>
-                        <a href='https://delivery-moa.github.io/delivery-moa/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
-                        </a>
-                    </div>
-                </div>
-                <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
-                <div className={styles["main_skill_text"]}>
-                    <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
-                    <hr />
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>기술스택</div>
-                        <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/supabase.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/cib_visual-studio-code.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/react-outline.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/postgresql.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
-                        </div>
-                    </div>
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>주요 기능</div>
-                        <div className={styles["main_skill_explain"]}>
-                            <ul>
-                                <li>위치 기반 공구방 개설 및 참여</li>
-                                <li>최소 주문 금액 충족을 위한 공동 주문 기능</li>
-                                <li>카카오 주소 검색 및 지도 연동</li>
-                                <li>사용자 평가 시스템</li>
-                                <li>마이페이지, 공구방 관리</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>참여 시기</div>
-                        <div className={styles["main_skill_explain"]}>2025.05</div>
+                        <div className={styles["main_skill_explain"]}>2025.07 ~ 2025.08</div>
                     </div>
                     <div className={styles["main_skill2"]}>
                         <div className={styles["main_skill_name"]}>설명</div>
@@ -130,14 +69,72 @@ export default function MyProject() {
                 <div className={styles["main_skill_link"]}>
                     <div className={styles["main_skill_number"]}>02</div>
                     <div className={styles["main_about_a_list"]}>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
+                        </a>
+                        <a href='https://www.figma.com/deck/ubGucjKKdp6SW8nUKuf5D6/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8A%88%ED%8D%BC%EB%B2%A0%EC%9D%B4%EC%8A%A4-PPT?node-id=247-448&t=fLzGQTJAIZmtZIBD-1' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
+                        </a>
+                        <a href='https://delivery-moa.github.io/delivery-moa/' target="_blank" className={styles["main_about_a"]}>
+                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
+                        </a>
+                    </div>
+                </div>
+                <img src="delivery_moa_purple.png" className={styles["project_img"]} />
+                <div className={styles["main_skill_text"]}>
+                    <div className={styles["main_skill_title"]}>배달모아 (위치기반 배달 공구 플랫폼)</div>
+                    <hr />
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>기술스택</div>
+                        <div className={styles["main_skill_img_box"]}>
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/supabase.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/cib_visual-studio-code.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/react-outline.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/postgresql.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
+                        </div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>주요 기능</div>
+                        <div className={styles["main_skill_explain"]}>
+                            <ul>
+                                <li>위치 기반 공구방 개설 및 참여</li>
+                                <li>최소 주문 금액 충족을 위한 공동 주문 기능</li>
+                                <li>카카오 주소 검색 및 지도 연동</li>
+                                <li>사용자 평가 시스템</li>
+                                <li>마이페이지, 공구방 관리</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>참여 시기</div>
+                        <div className={styles["main_skill_explain"]}>2025.05 ~ 2025.06</div>
+                    </div>
+                    <div className={styles["main_skill2"]}>
+                        <div className={styles["main_skill_name"]}>설명</div>
+                        <div className={styles["main_skill_explain"]}>
+                            배달비 부담과 최소 주문 금액 문제를 해결하기 위해, 인근 사용자들과 배달 음식을 공동 주문할 수 있는 플랫폼을 개발했습니다.
+                            Supabase를 활용해 실시간 데이터베이스, 인증, 공구방 참여 내역 등을 효율적으로 관리하고,
+                            React 기반으로 사용자가 공구방을 쉽게 개설하고 참여할 수 있도록 직관적인 UI를 구현했습니다.
+                            카카오 주소 API를 연동하여 위치 기반 필터링과 지도 시각화 기능을 제공했습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles["myProject_list"]}>
+                <div className={styles["main_skill_link"]}>
+                    <div className={styles["main_skill_number"]}>03</div>
+                    <div className={styles["main_about_a_list"]}>
+                        <a href='https://github.com/rlaksl/RocketBookstore' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
                         <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
-                        </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
                 </div>
@@ -146,7 +143,7 @@ export default function MyProject() {
                     <div className={styles["main_skill_title"]}>로켓북스토어 (1:1 실시간 배송 서점)</div>
                     <hr />
                     <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>기술스택</div>
+                        <div className={styles["main_skill_name"]}>기술 스택</div>
                         <div className={styles["main_skill_img_box"]}>
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
@@ -158,6 +155,10 @@ export default function MyProject() {
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/fontisto_oracle.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
                         </div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>기술 구현</div>
+                        <div className={styles["main_skill_explain"]}>JSP프로젝트</div>
                     </div>
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>주요 기능</div>
@@ -172,7 +173,7 @@ export default function MyProject() {
                     </div>
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>참여 시기</div>
-                        <div className={styles["main_skill_explain"]}>2025.02</div>
+                        <div className={styles["main_skill_explain"]}>2025.03</div>
                     </div>
                     <div className={styles["main_skill2"]}>
                         <div className={styles["main_skill_name"]}>설명</div>
@@ -185,67 +186,64 @@ export default function MyProject() {
             </div>
             <div className={styles["myProject_list"]}>
                 <div className={styles["main_skill_link"]}>
-                    <div className={styles["main_skill_number"]}>03</div>
+                    <div className={styles["main_skill_number"]}>04</div>
                     <div className={styles["main_about_a_list"]}>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://github.com/goonmaandoo/miniPrject' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
-                        <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://www.figma.com/deck/ut6G5uChWLPaJqexIZMxGK/%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1-374&t=IRNjA1JBQCAAmEQM-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
-                        </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
                 </div>
-                <video
-                    className={styles["videoPlayer"]}
-                    preload="metadata"
-                    poster="/MyPortfolio/2023contest-01.png"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                >
-                    <source src="/MyPortfolio/videos/2023contest2.mp4" type="video/mp4" />
-                </video>
+                <img src="miniProject.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
-                    <div className={styles["main_skill_title"]}>감지센서블럭을 활용한 불법주청차 단속 효율화</div>
+                    <div className={styles["main_skill_title"]}>미니 프로젝트 - 영화예매 시스템</div>
                     <hr />
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>기술스택</div>
                         <div className={styles["main_skill_img_box"]}>
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/file-icons_rstudio.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/devicon-plain_eclipse.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/sqldeveloper.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/la_java.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/fontisto_oracle.png' />
                         </div>
                     </div>
                     <div className={styles["main_skill"]}>
-                        <div className={styles["main_skill_name"]}>공모전</div>
-                        <div className={styles["main_skill_explain"]}>2023년 광진구 빅데이터 활용 공모전</div>
+                        <div className={styles["main_skill_name"]}>기술 구현</div>
+                        <div className={styles["main_skill_explain"]}>JDBC프로젝트</div>
+                    </div>
+                    <div className={styles["main_skill"]}>
+                        <div className={styles["main_skill_name"]}>주요 기능</div>
+                        <div className={styles["main_skill_explain"]}>
+                            <ul>
+                                <li> - 고객 추가 , 수정 및 삭제 :  새로운 고객을 추가하거나 기존 고객의 정보 (name, phone) 을 수정하거나 삭제할수 있다.</li>
+                                <li> - 영화 예매  : 고객은 원하는 영화를 예매할 수 있다. </li>
+                                <li> - 예매 조회  :  고객 id로 영화 예매 내역을 조회할 수 있다.</li>
+                                <li> - 예매 정보 수정  :  예매번호로 상영시간, 좌석을 수정할 수 있다.</li>
+                                <li> - 예매 취소 : 예매번호로 예매한 영화를 취소할 수 있다</li>
+                                <li> - 관리자 모드  :  관리자는 영화 및 예매 내역을 관리할 수 있다. </li>
+                            </ul>
+                        </div>
                     </div>
                     <div className={styles["main_skill"]}>
                         <div className={styles["main_skill_name"]}>참여 시기</div>
-                        <div className={styles["main_skill_explain"]}>2023.05</div>
+                        <div className={styles["main_skill_explain"]}>2025.02</div>
                     </div>
                     <div className={styles["main_skill2"]}>
                         <div className={styles["main_skill_name"]}>설명</div>
-                        <div className={styles["main_skill_explain"]}>민원 1위인 불법주정차 문제 해결을 위해 감지 센서블럭 도입을 제안했습니다.
-                            R을 활용한 빅데이터 분석을 통해 다발 지역과 CCTV 설치 필요 지역을 도출하고,
-                            지도 시각화와 포인트 적립형 자원봉사 시스템을 도입하여 시민 참여를 유도했습니다.</div>
+                        <div className={styles["main_skill_explain"]}>이 프로젝트는 데이터베이스를 연결하여 고객 관리 및 영화 예매 관리를 할 수 있는 프로그램입니다.
+                            고객 추가, 수정, 영화 예매 및 다양한 영화 관련 기능을 가지고 있습니다.
+                        </div>
                     </div>
                 </div>
             </div>
             <div className={styles["myProject_list"]}>
                 <div className={styles["main_skill_link"]}>
-                    <div className={styles["main_skill_number"]}>03</div>
+                    <div className={styles["main_skill_number"]}>05</div>
                     <div className={styles["main_about_a_list"]}>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
-                        </a>
-                        <a href='https://www.figma.com/deck/DQraRyPtjLTLtwZEr1dncc/Rocket-Bookstore?node-id=6-37&t=1wYngmK6tiPRcNSV-1' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://www.figma.com/proto/IxN1wVlsIjldP6F8vRcsLO/Untitled?node-id=0-1&t=vWUavoM4HNY7fV0S-1' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img2"]} src='/MyPortfolio/color/logos_figma.png' /><div>PPT</div>
-                        </a>
-                        <a href='/' target="_blank" className={styles["main_about_a"]}>
-                            <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/line-md_link.png' /><div>사이트</div>
                         </a>
                     </div>
                 </div>

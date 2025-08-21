@@ -10,10 +10,10 @@ export default function About() {
                     <div className={styles["main_profile_title"]}>
                         <h2>About</h2>
                         <div className={styles["main_profile_content"]}>
-                            <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <a href='https://github.com/goonmaandoo' target="_blank" className={styles["main_about_a"]}>
                                 <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                             </a>
-                            <a href='/' target="_blank" className={styles["main_about_a"]}>
+                            <a href='https://blog.naver.com/won020738' target="_blank" className={styles["main_about_a"]}>
                                 <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/naver_blog.png' /><div>blog</div>
                             </a>
                         </div>
