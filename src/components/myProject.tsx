@@ -8,7 +8,7 @@ export default function MyProject() {
                 <div className={styles["main_skill_link"]}>
                     <div className={styles["main_skill_number"]}>01</div>
                     <div className={styles["main_about_a_list"]}>
-                        <a href='https://github.com/delivery-moa/delivery-moa#readme' target="_blank" className={styles["main_about_a"]}>
+                        <a href='https://github.com/goonmaandoo/FinalProjectReact#readme' target="_blank" className={styles["main_about_a"]}>
                             <img className={styles["main_skill_img1"]} src='/MyPortfolio/black/mdi_github.png' /><div>Github</div>
                         </a>
                         <a href='https://www.figma.com/deck/V09ILMAQtjde4BJue4d4IW/%EB%B0%B0%EB%8B%AC%EB%AA%A8%EC%95%84-%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C-%EC%B5%9C%EC%A2%85%EB%B3%B8?node-id=1-447&t=fLzGQTJAIZmtZIBD-1' target="_blank" className={styles["main_about_a"]}>
@@ -19,7 +19,10 @@ export default function MyProject() {
                         </a>
                     </div>
                 </div>
-                <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
+                <div className={styles["project_img_container"]}>
+                    <div className={styles["project_img_box"]}></div>
+                    <img src="/MyPortfolio/videos/image.png" className={styles["project_img_cover"]} />
+                </div>
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>배달모아(리뉴얼)</div>
                     <hr />
@@ -29,12 +32,19 @@ export default function MyProject() {
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/raphael_js.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/html.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/css-solid.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/supabase.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/la_java.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/fontisto_oracle.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/sqldeveloper.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mysql.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/cib_visual-studio-code.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_vite.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/mdi_github.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/intellij.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/lineicons_aws.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/docker.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/react-outline.png' />
-                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/postgresql.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/nodejs.png' />
+                            <img className={styles["main_skill_img"]} src='/MyPortfolio/black/simple-icons_spring.png' />
                             <img className={styles["main_skill_img"]} src='/MyPortfolio/black/figma-linear.png' />
                         </div>
                     </div>
@@ -42,11 +52,14 @@ export default function MyProject() {
                         <div className={styles["main_skill_name"]}>주요 기능</div>
                         <div className={styles["main_skill_explain"]}>
                             <ul>
-                                <li>위치 기반 공구방 개설 및 참여</li>
-                                <li>최소 주문 금액 충족을 위한 공동 주문 기능</li>
-                                <li>카카오 주소 검색 및 지도 연동</li>
-                                <li>사용자 평가 시스템</li>
-                                <li>마이페이지, 공구방 관리</li>
+                                <li>- 위치 기반 공구방 개설 및 참여</li>
+                                <li>- 최소 주문 금액 충족을 위한 공동 주문 기능</li>
+                                <li>- 카카오 주소 검색 및 지도 연동</li>
+                                <li>- 사용자 평가 시스템</li>
+                                <li>- 마이페이지, 공구방 관리</li>
+                                <li>- 사장님 페이지를 통한 실시간 주문 관리</li>
+                                <li>- 관리자 페이지 및 서비스 모니터링</li>
+                                <li>- AWS 기반 클라우드 인프라 운영</li>
                             </ul>
                         </div>
                     </div>
@@ -57,10 +70,11 @@ export default function MyProject() {
                     <div className={styles["main_skill2"]}>
                         <div className={styles["main_skill_name"]}>설명</div>
                         <div className={styles["main_skill_explain"]}>
-                            배달비 부담과 최소 주문 금액 문제를 해결하기 위해, 인근 사용자들과 배달 음식을 공동 주문할 수 있는 플랫폼을 개발했습니다.
-                            Supabase를 활용해 실시간 데이터베이스, 인증, 공구방 참여 내역 등을 효율적으로 관리하고,
-                            React 기반으로 사용자가 공구방을 쉽게 개설하고 참여할 수 있도록 직관적인 UI를 구현했습니다.
-                            카카오 주소 API를 연동하여 위치 기반 필터링과 지도 시각화 기능을 제공했습니다.
+                        기존 배달모아 프로젝트의 한계점을 개선한 Spring Boot 기반 풀스택 리뉴얼 버전입니다.
+                        Supabase에서 Oracle DB + Docker 컨테이너로 데이터베이스 환경을 전환하여 개발 환경을 표준화하고,
+                        AWS S3를 활용한 이미지 파일 관리로 서버 부하를 분산했습니다.
+                        사장님 페이지와 관리자 페이지를 신규 개발하여 기존 타이머 기반 자동 상태 변경에서 사장님이 직접 조리 상태와 배송 현황을 관리할 수 있도록 개선했습니다.
+                        AWS EC2를 통한 배포 및 Docker 컨테이너 환경으로 실제 서비스 운영에 적합한 인프라를 구축했습니다.
                         </div>
                     </div>
                 </div>
@@ -103,11 +117,11 @@ export default function MyProject() {
                         <div className={styles["main_skill_name"]}>주요 기능</div>
                         <div className={styles["main_skill_explain"]}>
                             <ul>
-                                <li>위치 기반 공구방 개설 및 참여</li>
-                                <li>최소 주문 금액 충족을 위한 공동 주문 기능</li>
-                                <li>카카오 주소 검색 및 지도 연동</li>
-                                <li>사용자 평가 시스템</li>
-                                <li>마이페이지, 공구방 관리</li>
+                                <li>- 위치 기반 공구방 개설 및 참여</li>
+                                <li>- 최소 주문 금액 충족을 위한 공동 주문 기능</li>
+                                <li>- 카카오 주소 검색 및 지도 연동</li>
+                                <li>- 사용자 평가 시스템</li>
+                                <li>- 마이페이지, 공구방 관리</li>
                             </ul>
                         </div>
                     </div>

@@ -11,6 +11,7 @@ export default function Abilities() {
                     <img src="/MyPortfolio/black/sqldeveloper.png" />
                     <img src="/MyPortfolio/black/devicon-plain_eclipse.png" />
                     <img src="/MyPortfolio/black/cib_visual-studio-code.png" />
+                    <img src="/MyPortfolio/black/intellij.png" />
                     <img src="/MyPortfolio/black/mdi_github.png" />
                 </div>
                 <div className={styles["main_tool_img"]}>
@@ -19,6 +20,8 @@ export default function Abilities() {
                 <div className={styles["main_tool_subtitle_detail"]}>Oracle DB 관리 및 쿼리 작성 도구</div>
                 <div className={styles["main_tool_subtitle"]}>Eclipse / Visual Studio Code</div>
                 <div className={styles["main_tool_subtitle_detail"]}>Java 및 프론트엔드 개발을 위한 통합 개발 환경</div>
+                <div className={styles["main_tool_subtitle"]}>IntelliJ IDEA</div>
+                <div className={styles["main_tool_subtitle_detail"]}>Java/Spring 개발을 위한 고급 통합 개발 환경</div>
                 <div className={styles["main_tool_subtitle"]}>Git / GitHub</div>
                 <div className={styles["main_tool_subtitle_detail"]}>버전 관리 및 협업</div>
 
@@ -29,6 +32,8 @@ export default function Abilities() {
                 <div className={styles["main_tool_img"]}>
                     <img src="/MyPortfolio/black/simple-icons_spring.png" />
                     <img src="/MyPortfolio/black/apachetomcat.png" />
+                    <img src="/MyPortfolio/black/nodejs.png" />
+                    <img src="/MyPortfolio/black/docker.png" />
                     <img src="/MyPortfolio/black/supabase.png" />
                     <img src="/MyPortfolio/black/lineicons_aws.png" />
                 </div>
@@ -36,6 +41,10 @@ export default function Abilities() {
                 <div className={styles["main_tool_subtitle_detail"]}>Java 기반 웹 애플리케이션 프레임워크</div>
                 <div className={styles["main_tool_subtitle"]}>Tomcat</div>
                 <div className={styles["main_tool_subtitle_detail"]}>Java 웹 서버 환경 구성</div>
+                <div className={styles["main_tool_subtitle"]}>Node.js</div>
+                <div className={styles["main_tool_subtitle_detail"]}>JavaScript 런타임 환경 기반 서버사이드 개발</div>
+                <div className={styles["main_tool_subtitle"]}>Docker</div>
+                <div className={styles["main_tool_subtitle_detail"]}>컨테이너 기반 애플리케이션 배포 및 환경 관리</div>
                 <div className={styles["main_tool_subtitle"]}>Supabase</div>
                 <div className={styles["main_tool_subtitle_detail"]}>인증, 실시간 데이터베이스 제공 BaaS</div>
                 <div className={styles["main_tool_subtitle"]}>AWS</div>
@@ -66,7 +75,7 @@ export default function Abilities() {
                     <img src="/MyPortfolio/black/la_java.png" />
                     <img src="/MyPortfolio/black/mysql.png" />
                     <img src="/MyPortfolio/black/fontisto_oracle.png" />
-                    <img src="/MyPortfolio/black/python.png" />
+                    {/* <img src="/MyPortfolio/black/python.png" /> */}
                 </div>
                 <div className={styles["main_tool_subtitle"]}>HTML / CSS / JavaScript</div>
                 <div className={styles["main_tool_subtitle_detail"]}>웹 페이지 구조, 스타일링 및 사용자 인터페이스 구현</div>
@@ -74,10 +83,10 @@ export default function Abilities() {
                 <div className={styles["main_tool_subtitle_detail"]}>객체지향 기반의 백엔드 로직 및 서버 개발</div>
                 <div className={styles["main_tool_subtitle"]}>SQL (MySQL / PostgreSQL / Oracle SQL)</div>
                 <div className={styles["main_tool_subtitle_detail"]}>관계형 데이터베이스 설계 및 SQL 기반 데이터 조작</div>
-                <div className={styles["main_tool_subtitle"]}>Python</div>
-                <div className={styles["main_tool_subtitle_detail"]}>데이터 처리 및 분석 자동화 (Jupyter, SageMaker 활용 기반)</div>
+                {/* <div className={styles["main_tool_subtitle"]}>Python</div>
+                <div className={styles["main_tool_subtitle_detail"]}>데이터 처리 및 분석 자동화 (Jupyter, SageMaker 활용 기반)</div> */}
             </div>
-            <div className={styles["main_tools"]}>
+            {/* <div className={styles["main_tools"]}>
                 <hr />
                 <h2>Data & Analytics Tools</h2>
                 <div className={styles["main_tool_img"]}>
@@ -93,7 +102,7 @@ export default function Abilities() {
                 <div className={styles["main_tool_subtitle_detail"]}>Python/R 기반 데이터 분석 환경 관리 및 패키지 관리 툴</div>
                 <div className={styles["main_tool_subtitle"]}>Jupyter Notebook</div>
                 <div className={styles["main_tool_subtitle_detail"]}>Python 기반의 데이터 분석 및 시각화 환경</div>
-            </div>
+            </div> */}
         </div>
     )
 }
