@@ -19,10 +19,7 @@ export default function MyProject() {
                         </a>
                     </div>
                 </div>
-                <div className={styles["project_img_container"]}>
-                    <div className={styles["project_img_box"]}></div>
-                    <img src="/MyPortfolio/videos/image.png" className={styles["project_img_cover"]} />
-                </div>
+                <img src="/MyPortfolio/videos/image.png" className={styles["project_img"]} />
                 <div className={styles["main_skill_text"]}>
                     <div className={styles["main_skill_title"]}>배달모아(리뉴얼)</div>
                     <hr />
